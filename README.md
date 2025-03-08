@@ -15,7 +15,7 @@ The tool uses natural language processing (NLP) techniques and machine learning 
 1. **Clone the repository**:
     ```bash
     git clone https://github.com/coderprasnt/email-spam-filter.git
-    cd spam-filter
+    cd email-spam-filter
     ```
 
 2. **Install dependencies**:
@@ -31,10 +31,29 @@ The tool uses natural language processing (NLP) techniques and machine learning 
 ## Usage
 The tool can be used to classify emails as spam or not spam. It takes a text file containing the email content as input and outputs whether the email is spam.
 
-### Example
+### Training the Model
+To train the spam filter model, run the following command:
+```bash
+python spam_filter.py --train
+```
+
+### Predicting Spam
+To predict whether an email is spam, use the following command:
 ```bash
 python spam_filter.py --email_path "path/to/email.txt"
 ```
+
+### Example
+Here's an example of training the model and predicting whether an email is spam:
+1. **Train the model**:
+    ```bash
+    python spam_filter.py --train
+    ```
+
+2. **Predict if an email is spam**:
+    ```bash
+    python spam_filter.py --email_path "data/test/spam/spam1.txt"
+    ```
 
 ## Conclusion
 The Email Spam Filter is a powerful tool for detecting and filtering out spam emails. By leveraging machine learning algorithms, it provides an effective solution for managing email spam.
@@ -42,5 +61,5 @@ The Email Spam Filter is a powerful tool for detecting and filtering out spam em
 ## Contact
 If you have any questions or need further assistance, please contact me through my social media channels.
 
-- **Telegram**: [@witchshophub](https://t.me/witchshophub) 🐦
-
+- **Twitter**: [@coderprasnt](https://twitter.com/coderprasnt) 🐦
+- **LinkedIn**: [Prasnt Kumar](https://linkedin.com/in/prasntkumar) 💼
