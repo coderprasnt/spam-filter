@@ -61,5 +61,4 @@ The Email Spam Filter is a powerful tool for detecting and filtering out spam em
 ## Contact
 If you have any questions or need further assistance, please contact me through my social media channels.
 
-- **Twitter**: [@coderprasnt](https://twitter.com/coderprasnt) 🐦
-- **LinkedIn**: [Prasnt Kumar](https://linkedin.com/in/prasntkumar) 💼
+- **Telegram**: [@Witchshophub](https://t.me/witchshophub) 🐦
